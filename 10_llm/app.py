@@ -4,6 +4,8 @@ from pydantic_ai.models.groq import GroqModel
 from pydantic_ai.providers.groq import GroqProvider
 
 
+groq_api_key = "put your apikey here"
+
 
 model = GroqModel(
     'openai/gpt-oss-20b', provider=GroqProvider(api_key=groq_api_key)
